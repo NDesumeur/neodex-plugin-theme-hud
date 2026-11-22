@@ -1,0 +1,36 @@
+{
+  "id": "neodex.themehud",
+  "name": "Thème Cockpit",
+  "version": "1.0.0",
+  "author": "NDesumeur",
+  "icon": "icon.png",
+  "neobase": ">=4.1.0",
+  "neodex": ">=3.3.9",
+  "type": "theme",
+  "compatibility": [
+    "windows",
+    "linux",
+    "android"
+  ],
+  "mobile": true,
+  "system": false,
+  "dependencies": {},
+  "sdk": "2.1.0",
+  "permissions": [],
+  "description": "L’affichage tête haute d’un vaisseau : coins de visée au lieu des cadres, lignes fines cyan, alertes orange. Un thème de couleurs et de cadres pour NeoDex.",
+  "category": "Thèmes",
+  "themes": [
+    {
+      "id": "hud",
+      "name": "Cockpit",
+      "style": "hud",
+      "hue": 195,
+      "sat": 50,
+      "accent": "#3ff5ff",
+      "light": "#c8fdff",
+      "third": "#ff9f1c",
+      "lift": 0.7,
+      "about": "L’affichage tête haute d’un vaisseau : coins de visée au lieu des cadres, lignes fines cyan, alertes orange."
+    }
+  ]
+}
